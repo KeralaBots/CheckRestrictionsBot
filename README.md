@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://github.com/Anandpskerala/CheckRestrictionsBot">
-        <img src="https://telegra.ph/file/cb6ac785a0b6785787964.png" alt="Userge">
+        <img src="https://telegra.ph/file/cb6ac785a0b6785787964.png" alt="check pic">
     </a>
     <br>
     <b>Check Account Restrictions Bot</b>
