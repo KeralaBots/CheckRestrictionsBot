@@ -1,0 +1,42 @@
+{
+  "name": "CheckRestrictions Bot",
+  "description": "A bot which can fetch restrictios applied to your account, chats, etc",
+  "logo": "https://telegra.ph/file/cb6ac785a0b6785787964.png",
+  "keywords": [
+    "telegram",
+    "check",
+    "restrictions",
+    "bot"
+  ],
+  "website": "https://github.com/Anandpskerala/CheckRestrictionsBot",
+  "repository": "https://github.com/Anandpskerala/CheckRestrictionsBot",
+  "env": {
+    "API_ID": {
+      "description": "Your APP ID. Get it from https://my.telegram.org/",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your API HASH. Get it from https://my.telegram.org/",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Get it from @BOTFATHER in telegram",
+      "value": "",
+      "required": true
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
