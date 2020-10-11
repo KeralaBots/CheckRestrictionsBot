@@ -42,7 +42,7 @@
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Anandpskerala/CheckRestrictionsBot/tree/v1)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Anandpskerala/CheckRestrictionsBot/tree/main)
 
 
 #### The Hard Way
