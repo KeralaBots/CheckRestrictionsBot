@@ -1,10 +1,9 @@
 import logging
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from main import BOT
 
 
-@Client.on_message(filters.regex('(?i)@(s)?') & filters.private)
+@Client.on_message(filters.regex('(?i)@(s)?'))
 async def check(c: Client, m: Message):
     c_id = m.text
     user_input = f"{c_id}"
