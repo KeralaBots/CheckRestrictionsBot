@@ -18,5 +18,5 @@ BOT = Client(
         root="plugins"
     )
 )
-
-BOT.run()
+if __name__ == "__main__":
+    BOT.run()
