@@ -1,7 +1,8 @@
 from pyrogram import Client, filters
+from main import BOT
 
 
-@Client.on_message(filters.command("start") & filters.private & filters.incoming)
+@BOT.on_message(filters.command("start") & filters.private & filters.incoming)
 async def start(c, m):
     await c.send_message(
         m.chat.id,
