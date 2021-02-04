@@ -56,5 +56,5 @@ python3 main.py
 
 ### Copyright & License 👮
 
-* Copyright (C) 2020 by [KeralaBots](https://github.com/KeralaBots) ❤️️
+* Copyright (C) 2020 - 2021 by [KeralaBots](https://github.com/KeralaBots) ❤️️
 * Licensed under the terms of the [MIT](https://github.com/KeralaBots/CheckRestrictionsBot/blob/main/LICENSE)
