@@ -56,5 +56,5 @@ python3 main.py
 
 ### Copyright & License 👮
 
-* Copyright (C) 2020 by [Anand](https://github.com/Anandpskerala) ❤️️
-* Licensed under the terms of the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/Anandpskerala/CheckRestrictionsBot/blob/main/LICENSE)
+* Copyright (C) 2020 by [KeralaBots](https://github.com/KeralaBots) ❤️️
+* Licensed under the terms of the [MIT](https://github.com/KeralaBots/CheckRestrictionsBot/blob/main/LICENSE)
