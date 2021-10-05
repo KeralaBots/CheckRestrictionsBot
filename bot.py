@@ -1,4 +1,4 @@
-from pyrogram import Client, __version__
+from pyrogram import Client, __version__, idle
 from pyrogram.raw.all import layer
 
 from config import Config
@@ -26,3 +26,7 @@ class Bot(Client):
         me = await self.get_me()
         await super().stop()
         print(f"@{me.username} stopped. Bye.")
+    
+    asnyc def idle(self):
+        print("Idling")
+        idle()
