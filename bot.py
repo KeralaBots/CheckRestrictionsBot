@@ -28,5 +28,5 @@ class Bot(Client):
         print(f"@{me.username} stopped. Bye.")
     
     asnyc def idle(self):
-        print("Idling")
-        idle()
+        print(f"Idling {me.username}")
+        await idle()
